@@ -1,0 +1,46 @@
+# Environment variables (contains sensitive credentials)
+.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Claude Code settings (contains personal paths)
+.claude/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files (if any)
+*.db
+*.sqlite
+
+# Backup files
+*.backup
+*.bak
+
+# Configuration overrides
+config.local.py
+settings.local.py
