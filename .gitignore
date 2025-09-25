@@ -26,8 +26,9 @@ Thumbs.db
 *.log
 logs/
 
-# Claude Code settings (contains personal paths)
-.claude/
+# Editor settings
+.vscode/
+.idea/
 
 # Temporary files
 *.tmp
